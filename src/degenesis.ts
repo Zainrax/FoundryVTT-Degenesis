@@ -19,8 +19,8 @@ Hooks.once("init", async function () {
 
   // Assign custom classes and constants here
 
-  Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("degenesis", DegenesisActorSheet);
+  // Actors.unregisterSheet("core", ActorSheet);
+  // Actors.registerSheet("degenesis", DegenesisActorSheet);
 
   // Register custom system settings
   registerSettings();

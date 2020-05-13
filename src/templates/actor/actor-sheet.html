@@ -1,0 +1,94 @@
+<form class="{{cssClass}}" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="actor-sheet">
+    <img
+      class="profile"
+      src="{{actor.img}}"
+      data-edit="img"
+      title="{{actor.name}}"
+      height="100"
+      width="100"
+    />
+    <section class="header-column">
+      <div class="sheet-field">
+        <span class="field-name">NAME:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="name"
+          value="{{actor.name}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">AGE:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.age.value"
+          value="{{data.age.value}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">RANK:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.rank.value"
+          value="{{data.rank.value}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">EXPERIENCE:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.experience.value"
+          value="{{data.experience.value}}"
+        />
+      </div>
+    </section>
+    <section class="header-column">
+      <div class="sheet-field">
+        <span class="field-name">SEX:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.sex.vlue"
+          value="{{data.sex.value}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">HEIGHT:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.height.value"
+          value="{{data.height.value}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">WEIGHT:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.weight.value"
+          value="{{data.weight.value}}"
+        />
+      </div>
+      <div class="sheet-field">
+        <span class="field-name">DRAFTS/DINARS:</span>
+        <input
+          class="field-input"
+          type="text"
+          name="data.dinars.value"
+          value="{{data.dinars.value}}"
+        />
+      </div>
+    </section>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary"></nav>
+
+  <div class="tab-content"></div>
+</form>
