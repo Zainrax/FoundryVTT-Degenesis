@@ -3,7 +3,7 @@
   "title": "degenesis",
   "description": "",
   "version": "0.1.0",
-  "author": "",
+  "author": "Zainrax",
   "authors": [
     {
       "name": "",
@@ -22,9 +22,9 @@
   "compatibleCoreVersion": "0.5.0",
   "url": "https://github.com/Zainrax/FoundryVTT-Degenesis",
   "manifest": "https://raw.githubusercontent.com/Zainrax/FoundryVTT-Degenesis/master/src/system.json",
-  "download": "",
-  "license": "",
-  "readme": "",
+  "download": "https://github.com/Zainrax/FoundryVTT-Degenesis/blob/master/package/degenesis-v0.1.0.zip?raw=true",
+  "license": "MIT",
+  "readme": "https://raw.githubusercontent.com/Zainrax/FoundryVTT-Degenesis/master/README.md",
   "bugs": "",
   "changelog": ""
 }
