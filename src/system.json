@@ -12,7 +12,6 @@
   "gridDistance": 1,
   "gridUnits": "ft",
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "0.5.0",
   "url": "https://github.com/Zainrax/FoundryVTT-Degenesis",
   "manifest": "https://raw.githubusercontent.com/Zainrax/FoundryVTT-Degenesis/master/src/system.json",
   "download": "https://github.com/Zainrax/FoundryVTT-Degenesis/blob/master/package/degenesis-v0.1.0.zip?raw=true",
